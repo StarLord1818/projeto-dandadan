@@ -8,25 +8,14 @@
     padding: 0px;
     margin: 0px
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 html {
     width: 100vw;
     background-color: rgb(32, 32, 32);
 }
-h1 {
-    color: white;
-    font-family: 'Bungee', 'sans-serif';
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    font-size: 3em;
-}
-h2 {
-    color: white;
-    background-color: rgb(196, 2, 2);
-    display: block;
-    text-align: center;
-    
-}
+
 main {
     background-color: rgb(90, 89, 89);    
     margin: auto;
@@ -78,10 +67,52 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     background-color: rgb(63, 63, 63);
 }  
+h1 {
+    color: white;
+    font-family: 'Bungee', 'sans-serif';
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+}
+h2 {
+    font-family: 'Nunito Sans', 'sans-serif';
+    color: white;
+    background-color: rgb(196, 2, 2);
+    text-align: center;
+    padding: 10px;
+    margin: 30px 200px 0px 200px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+h2:hover {
+    box-shadow: 0px 0px 10px;
+    transition-duration: 1s;
+}
+h3 {
+    font-weight: normal;
+    font-family: 'Nunito Sans', 'sans-serif';
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 15px;
+    color: rgb(255, 0, 0);
+}
 p {
     padding-top: 20px;
     text-align: center;
     font-family: 'Nunito Sans' ;
     color: white;
     font-size: 1.4em;
+    margin: 0px 100px;
+}
+.titulo {
+    font-family: 'Bungee', 'sans-serif';
+    
+}
+#sinopse {
+    background-color: gray
+    ;
+    border-radius: 10px;
+}
+.titulo > ins {
 }
