@@ -155,12 +155,13 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 231px;
+    height: 147px;
     padding-top: 4px;
     border-radius: 10px;
     border: 1px rgb(255, 69, 100) solid;
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 0px 20px;
+
 }
 
 #imagemomo img {
@@ -201,7 +202,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 231px;
+    height: 147px;
     padding-top: 4px;
     border-radius: 10px;
     border: 1px rgb(69, 69, 252) solid;
