@@ -155,7 +155,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 200px;
+    height: 230px;
     padding-top: 4px;
     border-radius: 10px;
     border: 1px rgb(255, 69, 100) solid;
@@ -168,7 +168,7 @@ p {
 
     /* ALTERADO
        Antes estava 235px. */
-    width: 203px;
+    width: 234px;
 
     border-radius: 10px 0px 0px 10px;
 }
