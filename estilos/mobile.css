@@ -116,8 +116,7 @@ p {
     text-align: center;
     font-family: 'Nunito Sans';
     color: white;
-    font-size: 1.4em;
-
+mmmnnn jnm
     /* ALTERADO
        Retirei a margem de 100px daqui.
        Ela estava causando o vazamento no celular. */
@@ -175,7 +174,7 @@ p {
 
 #textomomo {
     text-align: center;
-    font-size: 1em;
+    font-size: 15px;
     font-weight: bold;
     padding-bottom: 6px;
 }
