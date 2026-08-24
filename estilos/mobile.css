@@ -155,7 +155,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 230px;
+    height: 146px;
     padding-top: 4px;
     border-radius: 10px;
     border: 1px rgb(255, 69, 100) solid;
@@ -168,7 +168,7 @@ p {
 
     /* ALTERADO
        Antes estava 235px. */
-    width: 234px;
+    width: 150px;
 
     border-radius: 10px 0px 0px 10px;
 }
@@ -202,7 +202,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 200px;
+    height: 146px;
     padding-top: 4px;
     border-radius: 10px;
     border: 1px rgb(69, 69, 252) solid;
@@ -216,7 +216,7 @@ p {
 #imageokarun img {
 
     /* ALTERADO */
-    width: 203px;
+    width: 150px;
 
     border-radius: 10px 0px 0px 10px;
     box-shadow: inset 1px;
