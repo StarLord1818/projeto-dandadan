@@ -116,37 +116,22 @@ p {
     text-align: center;
     font-family: 'Nunito Sans';
     color: white;
-    /* ALTERADO
-       Retirei a margem de 100px daqui.
-       Ela estava causando o vazamento no celular. */
     margin: 20px;
 }
-
 #titulo {
     font-family: 'Bungee', 'sans-serif';
     margin: auto;
 }
-
 #sinopse {
     background-color: #808080;
     margin: 0px 20px;
     border-radius: 10px;
 }
-
 #personagenstitulo {
     padding-top: 40px;
     margin: auto;
-
-    /* ALTERADO
-       Título um pouco menor para telas pequenas. */
     font-size: 2.3em;
 }
-
-
-/* =========================
-   CARD DA MOMO
-   ========================= */
-
 #cardmomo {
     margin: auto;
     background-color: #292929;
@@ -159,35 +144,25 @@ p {
     border: 1px rgb(255, 69, 100) solid;
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 0px 20px;
-
 }
-
 #imagemomo img {
-
-    /* ALTERADO
-       Antes estava 235px. */
     width: 150px;
-
     border-radius: 10px 0px 0px 10px;
 }
-
 #textomomo {
     text-align: center;
     font-size: 1em;
     font-weight: bold;
     padding-bottom: 6px;
 }
-
 #textomomo > h3 {
     font-weight: bold;
     color: rgb(255, 69, 100);
 }
-
 #textomomo > p {
     padding: 9px;
     margin: 0px;
 }
-
 #cardseiko {
     margin: auto;
     background-color: #292929;
@@ -200,7 +175,6 @@ p {
     border: 1px rgb(136, 0, 248) solid;
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 30px 20px;
-
 }
 #imageseiko img {
     width: 150px;
