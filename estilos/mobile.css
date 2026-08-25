@@ -7,16 +7,13 @@
     padding: 0px;
     margin: 0px;
 }
-
 body::-webkit-scrollbar {
     display: none;
 }
-
 html {
     width: 100vw;
     background-color: rgb(32, 32, 32);
 }
-
 main {
     background-color: rgb(90, 89, 89);
     margin: auto;
@@ -29,9 +26,7 @@ main > #primeirotexto {
     margin: auto;
     margin: 0px 0px 20px 0px;
     text-align: center;
-
 }
-
 #wallpaper {
     background-image: url('../imagens/wallpaper3.jpg');
     background-attachment: fixed;
@@ -42,7 +37,6 @@ main > #primeirotexto {
     padding: 15vh;
     box-shadow: inset 0px -16px 40px -11px;
 }
-
 #burguer {
     background-color: rgb(71, 71, 71);
     color: white;
@@ -52,20 +46,16 @@ main > #primeirotexto {
     text-align: center;
     cursor: pointer;
 }
-
 #burguer:hover {
     background-color: white;
     color: black;
 }
-
 nav {
     display: none;
 }
-
 nav > ul {
     list-style-type: none;
 }
-
 nav > ul > li > a {
     display: block;
     text-align: center;
@@ -77,11 +67,9 @@ nav > ul > li > a {
     border: 1px white solid;
     padding: 3.5px;
 }
-
 nav > ul > li > a:hover {
     background-color: rgb(63, 63, 63);
 }
-
 h1 {
     color: white;
     font-family: 'Bungee', 'sans-serif';
@@ -103,16 +91,12 @@ h2 {
     padding: 10px;
     border-radius: 5px;
     font-size: 1.5em;
-
-    /* ALTERADO */
     margin: auto;
 }
-
 h2:hover {
     box-shadow: 0px 0px 10px;
     transition-duration: 1s;
 }
-
 h3 {
     font-weight: normal;
     font-family: 'Nunito Sans', 'sans-serif';
@@ -121,7 +105,6 @@ h3 {
     padding-top: 15px;
     color: rgb(255, 0, 0);
 }
-
 p {
     padding-top: 20px;
     text-align: center;
@@ -203,7 +186,6 @@ p {
     border-radius: 10px 0px 0px 10px;
     box-shadow: inset 1px;
 }
-
 #textookarun {
     text-align: center;
     font-size: 1em;
@@ -249,7 +231,6 @@ p {
     font-weight: bold;
     color: rgb(255, 0, 212);
 }
-
 #textoshiratori > p {
     padding: 9px;
     margin: 0px;
@@ -284,7 +265,6 @@ p {
     font-weight: bold;
     color: rgb(253, 122, 0);
 }
-
 #textojiji > p {
     padding: 9px;
     margin: 0px;
@@ -319,7 +299,6 @@ p {
     font-weight: bold;
     color: rgb(153, 0, 255);
 }
-
 #textoseiko > p {
     padding: 9px;
     margin: 0px;
