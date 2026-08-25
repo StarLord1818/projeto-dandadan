@@ -132,6 +132,9 @@ p {
     margin: auto;
     font-size: 2.3em;
 }
+
+/* MOMO AYASE */
+
 #cardmomo {
     margin: auto;
     background-color: #292929;
@@ -163,6 +166,115 @@ p {
     padding: 9px;
     margin: 0px;
 }
+
+/* OKARUN */
+
+#cardokarun {
+    background-color: #292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 146px;
+    padding-top: 4px;
+    border-radius: 10px;
+    border: 1px rgb(69, 103, 252) solid;
+    box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
+    margin: 30px 20px 0px 20px;
+}
+#imageokarun img {
+    width: 145px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: inset 1px;
+}
+
+#textookarun {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#textookarun > h3 {
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(53, 134, 255);
+}
+#textookarun > p {
+    padding: 9px;
+    margin: 0px;
+}
+
+/* AIRA SHIRATORI */
+
+#cardshiratori {
+    margin: auto;
+    background-color: #292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 146px;
+    padding-top: 4px;
+    border-radius: 10px;
+    border: 1px rgb(255, 0, 234) solid;
+    box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
+    margin: 30px 20px;
+}
+#imageshiratori img {
+    width: 150px;
+    border-radius: 10px 0px 0px 10px;
+}
+#textoshiratori {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+#textoshiratori > h3 {
+    font-weight: bold;
+    color: rgb(255, 0, 212);
+}
+
+#textoshiratori > p {
+    padding: 9px;
+    margin: 0px;
+}
+
+/* JIJI */
+
+#cardjiji {
+    margin: auto;
+    background-color: #292929;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 146px;
+    padding-top: 4px;
+    border-radius: 10px;
+    border: 1px rgb(255, 115, 0) solid;
+    box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
+    margin: 30px 20px;
+}
+#imagejiji img {
+    width: 150px;
+    border-radius: 10px 0px 0px 10px;
+}
+#textojiji {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+#textojiji > h3 {
+    font-weight: bold;
+    color: rgb(253, 122, 0);
+}
+
+#textoseiko > p {
+    padding: 9px;
+    margin: 0px;
+}
+
+/* SEIKO AYASE */
+
 #cardseiko {
     margin: auto;
     background-color: #292929;
@@ -192,40 +304,6 @@ p {
 }
 
 #textoseiko > p {
-    padding: 9px;
-    margin: 0px;
-}
-
-#cardokarun {
-    background-color: #292929;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 146px;
-    padding-top: 4px;
-    border-radius: 10px;
-    border: 1px rgb(69, 69, 252) solid;
-    box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
-    margin: 30px 20px 0px 20px;
-}
-#imageokarun img {
-    width: 145px;
-    border-radius: 10px 0px 0px 10px;
-    box-shadow: inset 1px;
-}
-
-#textookarun {
-    text-align: center;
-    font-size: 1em;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-#textookarun > h3 {
-    padding-top: 20px;
-    font-weight: bold;
-    color: rgb(53, 53, 255);
-}
-#textookarun > p {
     padding: 9px;
     margin: 0px;
 }
