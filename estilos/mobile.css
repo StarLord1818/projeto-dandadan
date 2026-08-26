@@ -308,7 +308,7 @@ p {
     font-size: 2.3em;
 } 
 
-/* ALIENIGENAS */
+/* ALIENS */
 
 #cardalienigena {
     height: 800px;
@@ -318,7 +318,7 @@ p {
     border-radius: 10px;
 }
 #cardalienigena > img {
-    width: 330px;
+    width: 355px;
     margin: auto;
     display: block;
 }
