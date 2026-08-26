@@ -318,7 +318,8 @@ p {
     border-radius: 10px;
 }
 #cardalienigena > img {
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     margin: auto;
     display: block;
 }
@@ -360,9 +361,9 @@ p {
     border-radius: 10px;
 }
 #cardespiritos > img {
-    width: 370px;
-    
-    margin: auto;
+    max-width: 370px;
+    width: 100%;
+    margin: auto;   
     display: block;
 }
 #cardespiritos > h3 {
