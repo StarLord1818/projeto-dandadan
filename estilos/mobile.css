@@ -311,14 +311,14 @@ p {
 /* ALIENS */
 
 #cardalienigena {
-    height: 750px;
+    height: 730px;
     background-color: #292929;
     margin: 20px 20px;
     border: 1px rgb(52, 122, 5) solid;
     border-radius: 10px;
 }
 #cardalienigena > img {
-    width: 366px;
+    width: 367px;
     margin: auto;
     display: block;
 }
