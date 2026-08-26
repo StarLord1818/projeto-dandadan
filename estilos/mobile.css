@@ -325,8 +325,9 @@ p {
 #cardalienigena > h3 {
     font-weight: bold;
     font-size: 2em;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: rgb(126, 216, 73);
+    text-align: center;
 }
 #cardalienigena > h4 {
     text-align: center;
@@ -349,6 +350,47 @@ p {
     font-weight: bold;
 }
 
+/* ESPIRÍTOS */
+
+#cardespiritos {
+    height: 770px;
+    background-color: #292929;
+    margin: 20px 20px;
+    border: 1px rgb(179, 5, 5) solid;
+    border-radius: 10px;
+}
+#cardespiritos > img {
+    width: 370px;
+    margin: auto;
+    display: block;
+}
+#cardespiritos > h3 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: rgb(230, 23, 15);
+    text-align: center;
+}
+#cardespiritos > h4 {
+    text-align: center;
+    color:  white;
+    border: 3px rgb(218, 7, 7) solid;
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-size: 1.5em;
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#cardespiritos > h4:hover {
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    transition-duration: .5s;
+}
+#cardespiritos > p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
 footer {
     background-color: #292929;
     text-align: center;
