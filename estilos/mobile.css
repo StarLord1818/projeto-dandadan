@@ -311,7 +311,7 @@ p {
 /* ALIENS */
 
 #cardalienigena {
-    height: 800px;
+    height: 600px;
     background-color: #292929;
     margin: 20px 20px;
     border: 1px rgb(52, 122, 5) solid;
@@ -327,6 +327,22 @@ p {
     font-size: 2em;
     margin-bottom: 30px;
     color: rgb(126, 216, 73);
+}
+#cardalienigena > h4 {
+    text-align: center;
+    color:  white;
+    border: 3px rgb(40, 116, 40) solid;
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-size: 1.5em;
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#cardalienigena > h4:hover {
+    box-shadow: 0px 0px 10px rgb(7, 151, 7);
+    transition-duration: .5s;
 }
 #cardalienigena > p {
     font-size: 1.2em;
