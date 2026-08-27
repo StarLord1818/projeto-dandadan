@@ -40,14 +40,16 @@ main > #primeirotexto {
     background-image: url('../imagens/wallpaper3.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top;
     background-size: contain;
     display: block;
     margin: auto;
+
     height: 25vh;
     box-shadow: inset 0px -16px 40px -11px;
 }
 #burguer {
+    margin-top: 200px;
     background-color: rgb(71, 71, 71);
     color: white;
     display: block;
