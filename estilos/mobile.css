@@ -248,7 +248,7 @@ p {
 #cardshiratori {
     position: relative;
     background-image: url('../imagens/airashiratori7.jpg');
-    background-position: center 60%;
+    background-position: 60% 60%;
     background-size: cover;
     margin: auto;
     background-color: #292929;
