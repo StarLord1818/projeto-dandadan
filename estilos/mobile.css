@@ -55,8 +55,10 @@ nav {
 }
 nav > ul {
     list-style-type: none;
+    
 }
 nav > ul > li > a {
+    margin-top: 10px;
     display: block;
     text-align: center;
     list-style-type: none;
@@ -64,8 +66,8 @@ nav > ul > li > a {
     line-height: 1.4em;
     text-decoration: none;
     font-size: 1.4em;
-    border: 1px white solid;
     padding: 3.5px;
+    font-family: 'Nunito Sans', 'sans-serif';
 }
 nav > ul > li > a:hover {
     background-color: rgb(63, 63, 63);
@@ -97,6 +99,13 @@ h2:hover {
     box-shadow: 0px 0px 10px;
     transition-duration: 1s;
 }
+h2 > a {
+    text-decoration: none;
+    color: white;
+}
+h2 > a:hover {
+    text-decoration: underline;
+}
 h3 {
     font-weight: normal;
     font-family: 'Nunito Sans', 'sans-serif';
@@ -116,13 +125,14 @@ p {
     font-family: 'Bungee', 'sans-serif';
     margin: auto;
     font-size: 3em;
+    margin-top: 20px;
 }
 #titulo > ins {
     display: block;
     padding: -10px;
 }
 #sinopse {
-    background-color: #808080;
+    background-color: #555555;
     margin: 0px 20px;
     padding: 20px 0px;
     border-radius: 10px;
@@ -389,9 +399,22 @@ p {
     box-shadow: 0px 0px 10px rgb(255, 0, 0);
     transition-duration: .5s;
 }
+#cardespiritos a:visited {
+    color: white;
+}
 #cardespiritos > p {
     font-size: 1.2em;
     font-weight: bold;
+}
+#cardespiritos > h4 > a {
+    color: white;
+    text-decoration: none;
+}
+#cardespiritos > h4 > a:hover {
+    text-decoration: underline;
+}
+#cardespiritos  a:visited {
+    color: white;
 }
 footer {
     background-color: #292929;
@@ -405,14 +428,13 @@ footer > p {
     padding-top: 0px;
 }
 footer a {
+    padding-top: 5px;
     text-decoration: none;
     color: white;
+    display: block;
 }
 footer a:hover {
     text-decoration: underline;
-}
-footer a:visited{
-    color: white;
 }   
 footer:hover {
     box-shadow: 0px 0px 5px white;
