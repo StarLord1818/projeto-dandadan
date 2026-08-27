@@ -27,40 +27,18 @@ main > #primeirotexto {
     margin: 0px 0px 20px 0px;
     text-align: center;
 }
-/* #wallpaper 
-     {
-    background-image: url('../imagens/wallpaper3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    aspect-ratio: 16 / 9;
-    background-attachment: scroll;
-
-}  */
 #wallpaper {
-    background-image: url('../imagens/wallpaper2novo.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    background-size: cover;
-    display: block;
-    background-size: contain;
-    margin: auto;
-    height: 200px;
-    box-shadow: inset 0px -16px 40px -11px;
-}
-/* #wallpaper {
     background-image: url('../imagens/wallpaper3.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
     display: block;
+    background-position: top center;
     margin: auto;
-    padding: -40px;
-    height: 25vh;
+    padding: 15vh;
     box-shadow: inset 0px -16px 40px -11px;
-} */
+    background-size: 150%;
+
+}
 #burguer {
     margin-top: 200px;
     background-color: rgb(71, 71, 71);
@@ -108,7 +86,4 @@ h1 {
 h1 > ins {
     text-underline-offset: 8px;
     text-decoration-color: red;
-}
-p {
-    background-color: cadetblue;
 }
