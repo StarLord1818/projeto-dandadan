@@ -109,3 +109,6 @@ h1 > ins {
     text-underline-offset: 8px;
     text-decoration-color: red;
 }
+p {
+    background-color: cadetblue;
+}
