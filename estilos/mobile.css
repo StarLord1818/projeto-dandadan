@@ -19,6 +19,7 @@ main {
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding-bottom: 30px;
 }
 main > #primeirotexto {
     font-size: 1.5em;
@@ -421,12 +422,13 @@ footer {
     font-size: 1.3em;
     padding: 1px;
     margin-top: 20px;
+    margin: auto;
 }
 footer > p {
     padding-top: 0px;
 }
 footer a {
-    padding-top: 5px;
+    padding-top: 2px;
     text-decoration: none;
     color: white;
     display: block;
