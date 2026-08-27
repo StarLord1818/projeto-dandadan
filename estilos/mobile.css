@@ -413,9 +413,6 @@ p {
 #cardespiritos > h4 > a:hover {
     text-decoration: underline;
 }
-#cardespiritos  a:visited {
-    color: white;
-}
 footer {
     background-color: #292929;
     text-align: center;
