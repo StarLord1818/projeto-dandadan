@@ -138,6 +138,7 @@ p {
     margin: 0px 20px;
     padding: 20px 0px;
     border-radius: 10px;
+    font-weight: 500;
 }
 #personagenstitulo {
     padding-top: 40px;
@@ -148,6 +149,10 @@ p {
 /* MOMO AYASE */
 
 #cardmomo {
+    position: relative;
+    background-image: url('../imagens/momoayase1.jpg');
+    background-position: center 40%;
+    background-size: cover;
     margin: auto;
     background-color: #292929;
     display: flex;
@@ -159,6 +164,16 @@ p {
     border: 1px rgb(255, 69, 100) solid;
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 30px 20px;
+}
+#cardmomo > * {
+    z-index: 1;
+}
+#cardmomo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
 }
 #imagemomo img {
     width: 150px;
@@ -182,6 +197,10 @@ p {
 /* OKARUN */
 
 #cardokarun {
+    position: relative;
+    background-image: url('../imagens/okarun5.jpg');
+    background-position: center 50%;
+    background-size: cover;
     background-color: #292929;
     display: flex;
     flex-direction: row;
@@ -193,8 +212,18 @@ p {
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 30px 20px 0px 20px;
 }
+#cardokarun > * {
+    z-index: 1;
+}
+#cardokarun::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
 #imageokarun img {
-    width: 145px;
+    width: 150px;
     border-radius: 10px 0px 0px 10px;
     box-shadow: inset 1px;
 }
@@ -207,7 +236,7 @@ p {
 #textookarun > h3 {
     padding-top: 20px;
     font-weight: bold;
-    color: rgb(53, 134, 255);
+    color: rgb(73, 149, 250);
 }
 #textookarun > p {
     padding: 9px;
@@ -217,6 +246,10 @@ p {
 /* AIRA SHIRATORI */
 
 #cardshiratori {
+    position: relative;
+    background-image: url('../imagens/airashiratori7.jpg');
+    background-position: center 60%;
+    background-size: cover;
     margin: auto;
     background-color: #292929;
     display: flex;
@@ -228,6 +261,16 @@ p {
     border: 1px rgb(255, 0, 234) solid;
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 30px 20px;
+}
+#cardshiratori > * {
+    z-index: 1;
+}
+#cardshiratori::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
 }
 #imageshiratori img {
     width: 150px;
@@ -251,6 +294,10 @@ p {
 /* JIJI */
 
 #cardjiji {
+    position: relative;
+    background-image: url('../imagens/jiji6.jpg');
+    background-position: center 54%;
+    background-size: cover;
     margin: auto;
     background-color: #292929;
     display: flex;
@@ -262,6 +309,16 @@ p {
     border: 1px rgb(255, 115, 0) solid;
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 30px 20px;
+}
+#cardjiji > * {
+    z-index: 1;
+}
+#cardjiji::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
 }
 #imagejiji img {
     width: 150px;
@@ -285,6 +342,10 @@ p {
 /* SEIKO AYASE */
 
 #cardseiko {
+    position: relative;
+    background-image: url('../imagens/seikoayase6.jpg');
+    background-position: center 60%;
+    background-size: cover;
     margin: auto;
     background-color: #292929;
     display: flex;
@@ -297,6 +358,16 @@ p {
     box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.562);
     margin: 30px 20px;
 }
+#cardseiko > * {
+    z-index: 1;
+}
+#cardseiko::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
 #imageseiko img {
     width: 150px;
     border-radius: 10px 0px 0px 10px;
@@ -306,6 +377,7 @@ p {
     font-size: 1em;
     font-weight: bold;
     padding-bottom: 6px;
+    
 }
 #textoseiko > h3 {
     font-weight: bold;
@@ -328,6 +400,7 @@ p {
     margin: 20px 20px;
     border: 1px rgb(52, 122, 5) solid;
     border-radius: 10px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.562);
 }
 #cardalienigena > img {
     max-width: 370px;
@@ -362,6 +435,16 @@ p {
     font-size: 1.2em;
     font-weight: bold;
 }
+#cardalienigena  a {
+    color: white;
+    text-decoration: none;
+}   
+#cardalienigena a:hover {
+    text-decoration: underline;
+}
+#cardalienigena  a:visited {
+    color: white;
+}
 
 /* ESPIRÍTOS */
 
@@ -371,6 +454,7 @@ p {
     margin: 20px 20px;
     border: 1px rgb(179, 5, 5) solid;
     border-radius: 10px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.562);
 }
 #cardespiritos > img {
     max-width: 370px;
@@ -401,12 +485,12 @@ p {
     box-shadow: 0px 0px 10px rgb(255, 0, 0);
     transition-duration: .5s;
 }
-#cardespiritos a:visited {
-    color: white;
-}
 #cardespiritos > p {
     font-size: 1.2em;
     font-weight: bold;
+}
+#cardespiritos a:visited {
+    color: white;
 }
 #cardespiritos > h4 > a {
     color: white;
@@ -415,6 +499,9 @@ p {
 #cardespiritos > h4 > a:hover {
     text-decoration: underline;
 }
+
+/* RODAPÉ */
+
 footer {
     background-color: #292929;
     text-align: center;
