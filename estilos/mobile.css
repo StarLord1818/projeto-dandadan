@@ -249,7 +249,7 @@ p {
     position: relative;
     background-image: url('../imagens/airashiratori7.jpg');
     background-position: 60% 60%;
-    background-size: cover;
+    background-size: cover; 
     margin: auto;
     background-color: #292929;
     display: flex;
@@ -269,7 +269,7 @@ p {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.459);
     border-radius: 10px;
 }
 #imageshiratori img {
@@ -343,7 +343,7 @@ p {
 
 #cardseiko {
     position: relative;
-    background-image: url('../imagens/seikoayase6.jpg');
+    background-image: url('../imagens/seikoayase7.jpg');
     background-position: center 60%;
     background-size: cover;
     margin: auto;
