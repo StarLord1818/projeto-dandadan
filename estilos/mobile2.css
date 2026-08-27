@@ -44,7 +44,7 @@ main > #primeirotexto {
     background-size: contain;
     display: block;
     margin: auto;
-    padding: 15vh;
+    height: 25vh;
     box-shadow: inset 0px -16px 40px -11px;
 }
 #burguer {
