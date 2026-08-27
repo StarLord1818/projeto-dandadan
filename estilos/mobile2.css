@@ -27,16 +27,29 @@ main > #primeirotexto {
     margin: 0px 0px 20px 0px;
     text-align: center;
 }
-/* #wallpaper {
-    height: 250px;
-    padding: 0;
+/* #wallpaper 
+     {
     background-image: url('../imagens/wallpaper3.jpg');
-    background-size: 100% auto;
-    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-} */
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+    background-attachment: scroll;
+
+}  */
 #wallpaper {
+    background-image: url('../imagens/wallpaper2novo.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    background-size: contain;
+    margin: auto;
+    height: 200px;
+    box-shadow: inset 0px -16px 40px -11px;
+}
+/* #wallpaper {
     background-image: url('../imagens/wallpaper3.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -47,7 +60,7 @@ main > #primeirotexto {
     padding: -40px;
     height: 25vh;
     box-shadow: inset 0px -16px 40px -11px;
-}
+} */
 #burguer {
     margin-top: 200px;
     background-color: rgb(71, 71, 71);
