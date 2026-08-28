@@ -28,7 +28,7 @@ main > #primeirotexto {
     text-align: center;
 }
 #wallpaper {
-    background-image: url('../imagens/silky3.jpg');
+    background-image: url('../imagens/seikoayase6.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: block;
@@ -86,4 +86,14 @@ h1 {
 h1 > ins {
     text-underline-offset: 8px;
     text-decoration-color: red;
+}
+#sinopse {
+    background-color: #555555;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Nunito Sans', 'sans-serif';
 }
