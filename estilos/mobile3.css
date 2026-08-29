@@ -28,11 +28,11 @@ main > #primeirotexto {
     text-align: center;
 }
 #wallpaper {
-    background-image: url('../imagens/serpianos5.jpg');
+    background-image: url('../imagens/aliens.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: block;
-    background-position: center 10%;
+    background-position: center 3%;
     margin: auto;
     padding: 15vh;
     box-shadow: inset 0px -16px 40px -11px;
@@ -97,6 +97,14 @@ h1 > ins {
     color: white;
     font-family: 'Nunito Sans', 'sans-serif';
 }
+h2 {
+    color: white;
+    font-family: 'Nunito Sans', 'sans-serif';
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    margin: auto;
+}
 .container {
     padding: 2em;
 }
@@ -151,4 +159,42 @@ h1 > ins {
 }
 #slide-3 {
         object-position: center top;
+}
+#vocesabia {
+    font-weight: bold;
+    margin-top: 10px;
+}
+#vocesabia ins {
+    text-underline-offset: 8px;
+    text-decoration-color: red;
+}
+#cardcuriosidades {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.493);
+    position: relative;
+    background-image: url('../imagens/aliens1.jpg' ) ;
+    background-position: center 40%;
+    background-size: cover;
+    color: white;
+    background-color: #555555;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family: 'Nunito Sans', 'sans-serif';
+}
+#textocuriosidades {
+    font-weight: bold;
+    text-align: center;
+}
+#cardcuriosidades > * {
+    z-index: 1;
+    position: relative;
+}
+#cardcuriosidades::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
 }
