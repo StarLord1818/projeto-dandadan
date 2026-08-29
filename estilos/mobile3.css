@@ -28,15 +28,15 @@ main > #primeirotexto {
     text-align: center;
 }
 #wallpaper {
-    background-image: url('../imagens/aliens.jpg');
+    background-image: url('../imagens/serpianos5.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: block;
-    background-position: center 3%;
+    background-position: center 10%;
     margin: auto;
     padding: 15vh;
     box-shadow: inset 0px -16px 40px -11px;
-    background-size: 100%;
+    background-size: 140%;
 
 }
 #burguer {
