@@ -32,11 +32,11 @@ main > #primeirotexto {
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: block;
-    background-position: top center;
+    background-position: center 10%;
     margin: auto;
     padding: 15vh;
     box-shadow: inset 0px -16px 40px -11px;
-    background-size: 120%;
+    background-size: 100%;
 
 }
 #burguer {
