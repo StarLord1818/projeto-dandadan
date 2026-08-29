@@ -160,3 +160,17 @@ h2 {
 #slide-3 {
         object-position: center top;
 }
+#vocesabia {
+    font-weight: bolder;
+}
+#curiosidades {
+    color: white;
+    background-color: #555555;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Nunito Sans', 'sans-serif';
+}
