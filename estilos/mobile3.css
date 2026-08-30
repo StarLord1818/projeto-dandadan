@@ -33,11 +33,11 @@ main > #primeirotexto {
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: block;
-    background-position: center 10%;
+    background-position: center 1%;
     margin: auto;
     padding: 15vh;
     box-shadow: inset 0px -16px 40px -11px;
-    background-size: 150%;
+    background-size: 160%;
 
 }
 #burguer {
@@ -106,6 +106,12 @@ h2 {
     font-size: 2em;
     margin: auto;
 }
+span {
+    background: linear-gradient(to right,#3EFF8B, #18c915);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
 .container {
     padding: 2em;
 }
@@ -152,14 +158,14 @@ h2 {
 .slider::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
 }
-#slide-1 {
-        object-position: center top;
-}
-#slide-2 {
-        object-position: center 20%;
-}
 #slide-3 {
-        object-position: center top;
+    object-position: center;
+}
+#slide-4 {
+    object-position: center 30%;
+}
+#slide-8 {
+    object-position: center 25%;
 }
 #vocesabia {
     font-weight: bold;
