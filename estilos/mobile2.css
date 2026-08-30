@@ -38,7 +38,6 @@ main > #primeirotexto {
     padding: 15vh;
     box-shadow: inset 0px -16px 40px -11px;
     background-size: 150%;
-
 }
 #burguer {
     margin-top: 200px;
@@ -59,7 +58,6 @@ nav {
 }
 nav > ul {
     list-style-type: none;
-    
 }
 nav > ul > li > a {
     margin-top: 10px;
@@ -119,7 +117,6 @@ span {
     position: relative;
     max-width: 48rem;
     margin: 0 auto;
-
 }
 .slider {
     display: flex;
