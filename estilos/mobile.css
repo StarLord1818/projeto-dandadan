@@ -17,8 +17,7 @@ html {
 main {
     background-color: rgb(63, 63, 63);
     margin: auto;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     padding-bottom: 30px;
 }
 #primeirotexto {
@@ -504,11 +503,11 @@ p {
 footer {
     background-color: #292929;
     text-align: center;
-    border-radius: 6px 6px 0px 0px;
     font-size: 1.3em;
     padding: 1px;
     margin-top: 20px;
     margin: auto;
+    border-radius: 0px 0px 10px 10px;
 }
 footer > p {
     padding-top: 0px;
@@ -1067,5 +1066,6 @@ footer:hover {
         width: 70%;
         border-radius: 0px 0px 10px 10px;
         font-size: 1.7em;
+
     }
 }
