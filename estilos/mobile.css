@@ -32,7 +32,7 @@ main {
     background-image: url('../imagens/wallpaper3.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
-    background-position: top center;
+    background-position: center top;
     background-attachment: fixed;
     display: block;
     margin: auto;
@@ -526,23 +526,379 @@ footer:hover {
     box-shadow: 0px 0px 5px white;
     transition-duration: 1s;
 }
+
+/* TABLET, CELULAR DEITADO */
+
 @media screen and (min-width: 650px) and (max-width: 992px) {
     main {
         background-color: rebeccapurple;
         width: 90%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #dandadan{
+        font-size: 3.6em;
+        width: 87.8%;
+        background-color: rebeccapurple;
+    }
+    #wallpaper {
+        background-position: center 1%;
+        background-size: 92%;
+        width: 60%;
+        height: 100px;
+    }
+      /* #burguer {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+     nav > a {
+        background-color: #292929;
+        
+        }
+    nav > ul {
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+        background-color: rgb(80, 79, 79);
+    }
+    nav > ul > li {
+        margin-right: 20px;
+        font-size: 1em;
+        background-color: rgb(46, 46, 46);
+        border-radius: 10px;
+        padding: 0px 15px;
+        padding-bottom: 10px;
+        border: 2px rgb(167, 3, 3) solid;
+    }
+    nav > ul > li > a:hover {
+         background-color: rgb(46, 46, 46);
+    }
+    nav ul> li:hover {
+        box-shadow: 0px 0px 10px red;
+    } */
+    #primeirotexto{
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.7em;
+        width: 250px;
+    }
+    #titulo {
+        font-size: 3.6em;
+    }
+    #titulo > ins {
+        display: inline;
+    }
+    #sinopse {
+        font-size: 1.5em;
+    }
+    #personagenstitulo {
+        font-size: 3.6em;
+    }
+    
+    #cardmomo {
+        background-position: 100% 35%;
+        background-size: 72%;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        height: 216px;
+    }
+    #imagemomo img{
+        width: 220px;
+    }
+    #textomomo {
+        font-size: 1.7em;
+    }
+    #cardokarun {
+        background-position: 100% 64%;
+        background-size: 72%;
+        background-repeat: no-repeat; 
+        height: 216px;
+    }
+    #imageokarun img {
+        width: 219px;
+    }
+    #textookarun {
+        font-size: 1.7em;
+    }
+    #cardshiratori {
+        background-position: 100% 63%;
+        background-size: 72%;
+        background-repeat: no-repeat; 
+        height: 216px;
+    }
+    #imageshiratori img {
+        width: 220px;
+    }
+    #textoshiratori {
+        font-size: 1.7em;
+    }
+    #cardjiji {
+        background-position: 100% 65%;
+        background-size: 72%;
+        background-repeat: no-repeat; 
+        height: 216px;
+    }
+    #imagejiji img {
+        width: 220px;
+    }
+    #textojiji {
+        font-size: 1.7em;
+    }
+    #cardseiko {
+        background-position: 100% 20%;
+        background-size: 72%;
+        background-repeat: no-repeat; 
+        height: 216px;
+    }
+    #imageseiko img {
+        width: 220px;
+    }
+    #textoseiko {
+        font-size: 1.7em;
+    }
+    #universo {
+        font-size: 3.6em;
+    }
+    #cardalienigena {
+        height: 950px;
+        margin: 30px 50px;
+    }
+    #cardalienigena > img {
+        width: 100%;
+        max-width: 1000px;
+        display: block;
+    }
+    #cardalienigena > h3 {
+        font-size: 2.7em;
+        margin-bottom: 20px;
+    }
+    #cardalienigena > h4 {
+        font-size: 1.7em;
+        margin-top: 40px;
+    }
+    #cardalienigena > p {
+        font-size: 1.5em;
+}
+    #cardespiritos {
+        height: 1135px;
+        margin: 30px 50px;
+    }
+    #cardespiritos > img {
+        width: 100%;
+        max-width: 1000px;
+        display: block;
+    }
+    #cardespiritos > h3 {
+        font-size: 2.7em;
+        margin-bottom: 20px;
+    }
+    #cardespiritos > h4 {
+        font-size: 1.7em;
+        margin-top: 40px;
+    }
+    #cardespiritos > p {
+        font-size: 1.5em;
+    }
+    footer {
+        width: 90%;
+        border-radius: 0px 0px 10px 10px;
+        font-size: 1.4em;
     }
 }
+
+/* DESKTOP */
+
 @media screen and (min-width: 922px) and (max-width: 1200px) {
     main {
-        width: 90%;
+        width: 80%;
+        background-color: green;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #dandadan{
+        background-color: green;
+        font-size: 4em;
+        width: 71.5%;
+    }
+    #wallpaper {
+        background-position: center 1%;
+        background-size: 92%;
+        width: 50%;
+        height: 100px;
+    }
+      #burguer {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+     nav > a {
+        background-color: #292929;
+        
+        }
+    nav > ul {
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+        background-color: rgb(80, 79, 79);
+    }
+    nav > ul > li {
+        margin-right: 20px;
+        font-size: 1em;
+        background-color: rgb(46, 46, 46);
+        border-radius: 10px;
+        padding: 0px 15px;
+        padding-bottom: 10px;
+        border: 2px rgb(167, 3, 3) solid;
+    }
+    nav > ul > li > a:hover {
+         background-color: rgb(46, 46, 46);
+    }
+    nav ul> li:hover {
+        box-shadow: 0px 0px 10px red;
+    }
+    #primeirotexto{
+        font-size: 2.3em;
+    }
+    h2 {
+        font-size: 1.9em;
+        width: 250px;
+    }
+    #titulo {
+        font-size: 3.9em;
+    }
+    #titulo > ins {
+        display: inline;
+    }
+    #sinopse {
+        font-size: 1.5em;
+    }
+    #personagenstitulo {
+        font-size: 3.9em;
+    }
+    
+    #cardmomo {
+        background-position: 100% 35%;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        height: 246px;
+    }
+    #imagemomo img{
+        width: 250px;
+    }
+    #textomomo {
+        font-size: 2em;
+    }
+    #cardokarun {
+        background-position: 100% 59%;
+        background-size: 80%;
+        background-repeat: no-repeat; 
+        height: 246px;
+    }
+    #imageokarun img {
+        width: 249px;
+    }
+    #textookarun {
+        font-size: 2em;
+    }
+    #cardshiratori {
+        background-position: 100% 61%;
+        background-size: 75%;
+        background-repeat: no-repeat; 
+        height: 246px;
+    }
+    #imageshiratori img {
+        width: 250px;
+    }
+    #textoshiratori {
+        font-size: 2em;
+    }
+    #cardjiji {
+        background-position: 100% 62%;
+        background-size: 75%;
+        background-repeat: no-repeat; 
+        height: 246px;
+    }
+    #imagejiji img {
+        width: 250px;
+    }
+    #textojiji {
+        font-size: 2em;
+    }
+    #cardseiko {
+        background-position: 100% 20%;
+        background-size: 75%;
+        background-repeat: no-repeat; 
+        height: 246px;
+    }
+    #imageseiko img {
+        width: 250px;
+    }
+    #textoseiko {
+        font-size: 2em;
+    }
+    #universo {
+        font-size: 3.9em;
+    }
+    #cardalienigena {
+        height: 950px;
+        margin: 30px 100px;
+    }
+    #cardalienigena > img {
+        width: 100%;
+        max-width: 1000px;
+        display: block;
+    }
+    #cardalienigena > h3 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    #cardalienigena > h4 {
+        font-size: 1.7em;
+        margin-top: 40px;
+    }
+    #cardalienigena > p {
+        font-size: 1.5em;
+}
+    #cardespiritos {
+        height: 1135px;
+        margin: 30px 100px;
+    }
+    #cardespiritos > img {
+        width: 100%;
+        max-width: 1000px;
+        display: block;
+    }
+    #cardespiritos > h3 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    #cardespiritos > h4 {
+        font-size: 1.7em;
+        margin-top: 40px;
+    }
+    #cardespiritos > p {
+        font-size: 1.5em;
+    }
+    footer {
+        width: 80%;
+        border-radius: 0px 0px 10px 10px;
+        font-size: 1.5em;
     }
 }
+
+/* DESKTOP, TELAS GRANDES */
+
 @media screen and (min-width: 1200px) {
         main {
         width: 70%;
         border-radius: 10px 10px 0px 0px;
+        background-color: red;
     }
     #dandadan{
+        background-color: red;
         font-size: 4.5em;
         width: 69%;
     }
@@ -585,23 +941,23 @@ footer:hover {
         box-shadow: 0px 0px 10px red;
     }
     #primeirotexto{
-        font-size: 2.8em;
+        font-size: 2.5em;
     }
     h2 {
-        font-size: 2.5em;
+        font-size: 2.2em;
         width: 250px;
     }
     #titulo {
-        font-size: 4.5em;
+        font-size: 4.3em;
     }
     #titulo > ins {
         display: inline;
     }
     #sinopse {
-        font-size: 2em;
+        font-size: 1.7em;
     }
     #personagenstitulo {
-        font-size: 4.5em;
+        font-size: 4.3em;
     }
     #cardmomo {
         background-position: 101% 40%;
@@ -614,7 +970,7 @@ footer:hover {
         width: 300px;
     }
     #textomomo {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     #cardokarun {
         background-position: 100% 55%;
@@ -626,7 +982,7 @@ footer:hover {
         width: 300px;
     }
     #textookarun {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     #cardshiratori {
         background-position: 100% 60%;
@@ -638,7 +994,7 @@ footer:hover {
         width: 300px;
     }
     #textoshiratori {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     #cardjiji {
         background-position: 100% 57%;
@@ -650,7 +1006,7 @@ footer:hover {
         width: 300px;
     }
     #textojiji {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     #cardseiko {
         background-position: 100% 17%;
@@ -662,14 +1018,14 @@ footer:hover {
         width: 300px;
     }
     #textoseiko {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
     #universo {
         font-size: 4.5em;
     }
     #cardalienigena {
         height: 1020px;
-        margin: 30px 255px;
+        margin: 30px 200px;
     }
     #cardalienigena > img {
         width: 100%;
@@ -688,8 +1044,8 @@ footer:hover {
     font-size: 1.6em;
 }
     #cardespiritos {
-        height: 1220px;
-        margin: 30px 255px;
+        height: 1270px;
+        margin: 30px 200px;
     }
     #cardespiritos > img {
         width: 100%;
@@ -713,4 +1069,3 @@ footer:hover {
         font-size: 1.7em;
     }
 }
-
