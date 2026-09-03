@@ -20,6 +20,12 @@ main {
     border-radius: 10px 10px 0px 0px;
     padding-bottom: 5px;
 }
+#dandadan a{
+    text-decoration: none;
+}
+#dandadan  a:visited {
+    color: white;
+}
 #wallpaper {
     background-image: url('../imagens/seikoayase6.jpg');
     background-attachment: fixed;
@@ -199,14 +205,15 @@ span {
 @media screen and (min-width: 650px) and (max-width: 992px) {
       main {
         width: 80%;
+        background-color: rebeccapurple;
     }
     #dandadan {
         font-size: 3.6em;
     }
     #wallpaper {
         background-position: center 1%;
-        background-size: 150%;
-        height: 180px;
+        background-size: 116.8%;
+        height: 100px;
     }
     h1 {
         font-size: 3.6em;
