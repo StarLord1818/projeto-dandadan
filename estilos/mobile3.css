@@ -201,3 +201,165 @@ span {
     background: rgba(0, 0, 0, 0.322);
     border-radius: 10px;
 }
+
+/* TABLET / CELULAR DEITADO */
+
+@media screen and (min-width: 650px) and (max-width: 992px) {
+      main {
+        width: 80%;
+    }
+    #dandadan {
+        font-size: 3.6em;
+    }
+    #wallpaper {
+        background-position: center 1%;
+        background-size: 143%;
+        height: 180px;
+    }
+    h1 {
+        font-size: 3.6em;
+    }
+    #sinopse {
+        font-size: 1.5em;
+    }
+    h2 {
+    font-size: 2.7em;
+    } 
+    h2 > br {
+        display: none;
+    }
+    #cardcuriosidades {
+    margin: 20px 60px;
+    font-size: 1.9em;
+    height: 200px;
+    }
+}
+
+/* DESTKOP / TELAS GRANDES */
+
+@media screen and (min-width: 922px) and (max-width: 1200px) {
+    main {
+        width: 80%;
+    }
+    #dandadan {
+        font-size: 4em;
+    }
+    #wallpaper {
+        background-position: center 1%;
+        background-size: 103%;
+        height: 180px;
+    }
+    #burguer {
+        display: none;
+    }
+    nav {
+        display: block !important;
+    }
+    nav > a {
+        background-color: #292929;
+        
+        }
+    nav > ul {
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+        background-color: rgb(80, 79, 79);
+    }
+    nav > ul > li {
+        margin-right: 20px;
+        font-size: 1em;
+        background-color: rgb(46, 46, 46);
+        border-radius: 10px;
+        padding: 0px 15px;
+        padding-bottom: 10px;
+        border: 2px rgb(167, 3, 3) solid;
+    }
+    nav > ul > li > a:hover {
+         background-color: rgb(46, 46, 46);
+    }
+    nav ul> li:hover {
+        box-shadow: 0px 0px 10px red;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    #sinopse {
+        font-size: 1.9em;
+    }
+    h2 {
+    font-size: 2.9em;
+    } 
+    h2 > br {
+        display: none;
+    }
+    #cardcuriosidades {
+    margin: 20px 150px;
+    font-size: 2.1em;
+    height: 200px;
+    }
+}
+/* TELAS GRANDES */
+
+@media screen and (min-width: 1200px){ 
+     main {
+        width: 80%;       
+    }
+    #dandadan {
+        font-size: 4.5em;
+    }
+    #wallpaper {
+        background-position: center 1%;
+        background-size: 83%;
+        height: 200px;
+    }
+    #burguer {
+        display: none;
+    }
+    nav {
+        display: block;
+        display: block !important;
+    }
+    nav > a {
+        background-color: #292929;
+        
+        }
+    nav > ul {
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+        background-color: rgb(80, 79, 79);
+    }
+    nav > ul > li {
+        margin-right: 20px;
+        font-size: 1em;
+        background-color: rgb(46, 46, 46);
+        border-radius: 10px;
+        padding: 0px 15px;
+        padding-bottom: 10px;
+        border: 2px rgb(167, 3, 3) solid;
+    }
+    nav > ul > li > a:hover {
+         background-color: rgb(46, 46, 46);
+    }
+    nav ul> li:hover {
+        box-shadow: 0px 0px 10px red;
+    }
+    h1 {
+        font-size: 4.3em;
+    }
+    #sinopse {
+        font-size: 1.7em;
+    }
+    h2 {
+    font-size: 3em;
+    } 
+    h2 > br {
+        display: none;
+    }
+    #cardcuriosidades {
+    margin: 20px 150px;
+    font-size: 2.5em;
+    height: 200px;
+    }
+}
+
